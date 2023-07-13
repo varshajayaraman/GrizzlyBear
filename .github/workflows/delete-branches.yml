@@ -5,7 +5,9 @@ name: Stale Branches
 on:
   schedule:
     - cron: '27 11 * * 1-5'
-    
+   
+  workflow_dispatch:
+
 permissions:
   issues: write
   contents: write
